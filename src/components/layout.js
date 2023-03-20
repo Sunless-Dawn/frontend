@@ -9,7 +9,7 @@ export default function Layout(props) {
 
       <div className="bg-[url('/background.png')] flex flex-col h-screen justify-between">
         <Header />
-        <main className="flex justify-center py-5 px-2">
+        <main className="flex justify-center h-full my-10 mx-10 lg:mx-0 text-white">
             {props.children}
         </main>
         <Footer />

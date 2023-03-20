@@ -9,6 +9,8 @@ export default function Meta() {
   return (
     <>
       <Head>
+        <title>{title}: {description}</title>
+
         <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
@@ -32,7 +34,6 @@ export default function Meta() {
         <meta name="twitter:description" content={description} />
         <meta name="twitter:url" content={url} />
         <meta name="twitter:site" content={twitter} />
-
       </Head>
     </>
   );
